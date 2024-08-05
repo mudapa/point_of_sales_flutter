@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "958727394940",
+    "project_id": "fin-shop",
+    "storage_bucket": "fin-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958727394940:android:f3ca9b4a31b74befb99bf9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_pos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS9Ov4Dxse36yiew7fBCNPWUEFlegFPvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
