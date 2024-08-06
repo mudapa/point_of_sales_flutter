@@ -1,23 +1,24 @@
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
+import 'font_theme.dart';
 
-const AppBarTheme appBarLightTheme = AppBarTheme(
+AppBarTheme appBarLightTheme = AppBarTheme(
   backgroundColor: whiteColor,
   elevation: 0,
-  iconTheme: IconThemeData(color: blackColor),
-  titleTextStyle: TextStyle(
+  iconTheme: const IconThemeData(color: blackColor),
+  titleTextStyle: regulerText.copyWith(
     fontSize: 16,
     fontWeight: FontWeight.w500,
     color: blackColor,
   ),
 );
 
-const AppBarTheme appBarDarkTheme = AppBarTheme(
+AppBarTheme appBarDarkTheme = AppBarTheme(
   backgroundColor: blackColor,
   elevation: 0,
-  iconTheme: IconThemeData(color: whiteColor),
-  titleTextStyle: TextStyle(
+  iconTheme: const IconThemeData(color: whiteColor),
+  titleTextStyle: regulerText.copyWith(
     fontSize: 16,
     fontWeight: FontWeight.w500,
     color: whiteColor,

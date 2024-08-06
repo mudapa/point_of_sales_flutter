@@ -6,6 +6,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
     case splashPageRoute:
       return MaterialPageRoute(builder: (context) => const SplashPage());
+    case onboardingPageRoute:
+      return MaterialPageRoute(builder: (context) => const OnboardingPage());
     default:
       return MaterialPageRoute(builder: (context) => const SplashPage());
   }

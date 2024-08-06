@@ -8,11 +8,13 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
-  // @override
-  // void initState() {
-  //   Timer(const Duration(seconds: 3), () {});
-  //   super.initState();
-  // }
+  @override
+  void initState() {
+    Timer(const Duration(seconds: 3), () {
+      Navigator.pushReplacementNamed(context, onboardingPageRoute);
+    });
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,7 @@ class _SplashPageState extends State<SplashPage> {
           children: [
             Text(
               'Fin Shop',
-              style: display.copyWith(
+              style: displayText.copyWith(
                 fontSize: 32,
                 fontWeight: FontWeight.w700,
                 color: primaryColor,

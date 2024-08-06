@@ -3,27 +3,32 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../constants.dart';
 
-TextStyle display = GoogleFonts.montserrat(
+TextStyle displayText = GoogleFonts.montserrat(
   fontSize: 24,
   color: blackColor,
 );
 
-TextStyle title = GoogleFonts.montserrat(
+TextStyle titleText = GoogleFonts.montserrat(
   fontSize: 20,
   color: blackColor,
 );
 
-TextStyle subtitle = GoogleFonts.montserrat(
+TextStyle subtitleText = GoogleFonts.montserrat(
   fontSize: 18,
   color: blackColor,
 );
 
-TextStyle body = GoogleFonts.montserrat(
+TextStyle regulerText = GoogleFonts.montserrat(
+  fontSize: 16,
+  color: blackColor,
+);
+
+TextStyle bodyText = GoogleFonts.montserrat(
   fontSize: 14,
   color: blackColor,
 );
 
-TextStyle caption = GoogleFonts.montserrat(
+TextStyle captionText = GoogleFonts.montserrat(
   fontSize: 12,
   color: blackColor,
 );
