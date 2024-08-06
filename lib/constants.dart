@@ -44,6 +44,7 @@ const Color errorColor = Color(0xFFEA5B5B);
 const double defaultPadding = 16.0;
 const double defaultBorderRadious = 12.0;
 const Duration defaultDuration = Duration(milliseconds: 300);
+const SizedBox gapH = SizedBox(height: 16);
 
 final passwordValidator = MultiValidator([
   RequiredValidator(errorText: 'Password is required'),
