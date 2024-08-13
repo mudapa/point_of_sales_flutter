@@ -49,9 +49,9 @@ class OnboardingContent extends StatelessWidget {
         if (!isTextOnTop) const Spacer(),
         if (!isTextOnTop)
           onboardTitleDescription(
-            title: "Find the item you’ve \nbeen looking for",
+            title: "Jelajahi dunia belanja yang tak terbatas!",
             description:
-                "Here you’ll see rich varieties of goods, carefully classified for seamless browsing experience.",
+                "Dengan beragam produk yang tersedia, kamu pasti akan menemukan apa yang kamu cari.",
           ),
         const Spacer(),
       ],

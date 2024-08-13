@@ -10,10 +10,9 @@ class AppTheme {
   static ThemeData lightTheme(BuildContext context) {
     return ThemeData(
       brightness: Brightness.light,
-      fontFamily: "Plus Jakarta",
       primarySwatch: primaryMaterialColor,
       primaryColor: primaryColor,
-      scaffoldBackgroundColor: Colors.white,
+      scaffoldBackgroundColor: whiteColor,
       iconTheme: const IconThemeData(color: blackColor),
       textTheme: const TextTheme(
         bodyMedium: TextStyle(color: blackColor40),
@@ -33,10 +32,9 @@ class AppTheme {
   static ThemeData darkTheme(BuildContext context) {
     return ThemeData(
       brightness: Brightness.dark,
-      fontFamily: "Plus Jakarta",
       primarySwatch: primaryMaterialColor,
       primaryColor: primaryColor,
-      scaffoldBackgroundColor: Colors.black,
+      scaffoldBackgroundColor: blackColor,
       iconTheme: const IconThemeData(color: whiteColor),
       textTheme: const TextTheme(
         bodyMedium: TextStyle(color: whiteColor40),

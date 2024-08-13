@@ -14,36 +14,34 @@ class _OnboardingPageState extends State<OnboardingPage> {
     Onboard(
       image: "assets/illustration/Illustration-0.png",
       imageDarkTheme: "assets/illustration/Illustration_darkTheme_0.png",
-      title: "Find the item you’ve \nbeen looking for",
+      title: "Jelajahi dunia belanja yang tak terbatas!",
       description:
-          "Here you’ll see rich varieties of goods, carefully classified for seamless browsing experience.",
+          "Dengan beragam produk yang tersedia, kamu pasti akan menemukan apa yang kamu cari.",
     ),
     Onboard(
       image: "assets/illustration/Illustration-1.png",
       imageDarkTheme: "assets/illustration/Illustration_darkTheme_1.png",
-      title: "Get those shopping \nbags filled",
+      title: "Kumpulkan semua barang impianmu!",
       description:
-          "Add any item you want to your cart, or save it on your wishlist, so you don’t miss it in your future purchases.",
+          "Tambahkan ke keranjang atau simpan di daftar keinginan untuk dibeli nanti.",
     ),
     Onboard(
       image: "assets/illustration/Illustration-2.png",
       imageDarkTheme: "assets/illustration/Illustration_darkTheme_2.png",
-      title: "Fast & secure \npayment",
-      description: "There are many payment options available for your ease.",
+      title: "Transaksi aman, belanja puas!",
+      description: "Nikmati berbagai pilihan pembayaran yang aman dan mudah.",
     ),
     Onboard(
       image: "assets/illustration/Illustration-3.png",
       imageDarkTheme: "assets/illustration/Illustration_darkTheme_3.png",
-      title: "Package tracking",
-      description:
-          "In particular, Shoplon can pack your orders, and help you seamlessly manage your shipments.",
+      title: "Paketmu selalu terpantau!",
+      description: "Fin Shop akan memastikan paketmu sampai dengan selamat.",
     ),
     Onboard(
       image: "assets/illustration/Illustration-4.png",
       imageDarkTheme: "assets/illustration/Illustration_darkTheme_4.png",
-      title: "Nearby stores",
-      description:
-          "Easily track nearby shops, browse through their items and get information about their prodcuts.",
+      title: "Toko terdekat, belanja terdekat!",
+      description: "Temukan toko terdekat dan nikmati kemudahan berbelanja.",
     ),
   ];
 
@@ -71,7 +69,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () {
-                    // Navigator.pushNamed(context, logInScreenRoute);
+                    Navigator.pushNamed(context, loginPageRoute);
                   },
                   child: Text(
                     "Skip",
@@ -118,7 +116,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           _pageController.nextPage(
                               curve: Curves.ease, duration: defaultDuration);
                         } else {
-                          // Navigator.pushNamed(context, logInScreenRoute);
+                          Navigator.pushNamed(context, loginPageRoute);
                         }
                       },
                       style: ElevatedButton.styleFrom(

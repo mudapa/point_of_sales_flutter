@@ -47,13 +47,22 @@ const Duration defaultDuration = Duration(milliseconds: 300);
 const SizedBox gapH = SizedBox(height: 16);
 
 final passwordValidator = MultiValidator([
-  RequiredValidator(errorText: 'Password is required'),
-  MinLengthValidator(8, errorText: 'password must be at least 8 digits long'),
+  RequiredValidator(errorText: 'Password wajib diisi'),
+  MinLengthValidator(8,
+      errorText: 'password harus memiliki setidaknya 8 karakter'),
   PatternValidator(r'(?=.*?[#?!@$%^&*-])',
-      errorText: 'passwords must have at least one special character')
+      errorText: 'password harus memiliki setidaknya 1 karakter khusus'),
 ]);
 
 final emaildValidator = MultiValidator([
-  RequiredValidator(errorText: 'Email is required'),
-  EmailValidator(errorText: "Enter a valid email address"),
+  RequiredValidator(errorText: 'Email wajib diisi'),
+  EmailValidator(errorText: "Email tidak valid"),
 ]);
+
+// Dummy
+const productDemoImg1 = "https://i.imgur.com/CGCyp1d.png";
+const productDemoImg2 = "https://i.imgur.com/AkzWQuJ.png";
+const productDemoImg3 = "https://i.imgur.com/J7mGZ12.png";
+const productDemoImg4 = "https://i.imgur.com/q9oF9Yq.png";
+const productDemoImg5 = "https://i.imgur.com/MsppAcx.png";
+const productDemoImg6 = "https://i.imgur.com/JfyZlnO.png";
